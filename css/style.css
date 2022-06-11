@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+marquee {
+  background-color: rgb(224, 224, 224);
+  margin: 0.5rem 0;
+}
+
+.container {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+.form {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.9125em;
+}
+
+.input__container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.input__container:first-of-type input {
+  width: 100%;
+}
+.input__row {
+  display: flex;
+  gap: 1rem;
+}
+.input__row .input__container input {
+  width: 10.9375rem;
+}
+
+input {
+  padding: 0.2rem;
+}
+
+.submit-btn {
+  padding: 0.2rem 0;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1rem auto 0;
+}
+
+th, td {
+  border: 1px solid black;
+  width: 10rem;
+  text-align: initial;
+  padding: 0.1rem 0.5rem;
+}
+
+th {
+  font-size: 1em;
+}
+
+td {
+  font-size: 0.9125em;
+}
+
+td:last-of-type {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.remove-btn {
+  font-size: 1.1em;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

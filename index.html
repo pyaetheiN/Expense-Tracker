@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/practice.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Expense Tracker</h1>
+      <marquee width="45%" direction="right">Add a new item:</marquee>
+      <form class="form" autocomplete="on">
+        <div class="input__container">
+          <label for="name">Name:</label>
+          <input class="input__name" name="name" type="text">
+        </div>
+        <div class="input__row">
+          <div class="input__container">
+            <label for="date">Date:</label>
+            <input class="input__date" name="date" type="date">
+          </div>
+          <div class="input__container">
+            <label for="amount">Amount:</label>
+            <input class="input__amount" name="amount" type="number">
+          </div>
+        </div>
+        <button class="submit-btn" type="submit">Add Expense</button>
+      </form>
+      <table>
+        <thead>
+          <th>Name</th>
+          <th>Date</th>
+          <th>Amount</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+</html>
+
+<!-- &#10540; -->
